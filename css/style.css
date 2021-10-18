@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -18,6 +17,10 @@ i {
   text-decoration: none;
 }
 
+.row {
+  font-family: "Raleway", sans-serif;
+}
+
 /* ESTILOS PARA REDES SOCIALES HEADER */
 .navbar__brand {
   height: 100px;
@@ -31,13 +34,9 @@ i {
 }
 
 .social__icons__header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   z-index: 1030;
 }
@@ -55,13 +54,9 @@ header {
 
 /* ESTILOS PARA REDES SOCIALES FOOTER */
 .social__icons__footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -85,14 +80,12 @@ footer {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -107,9 +100,7 @@ footer {
   padding-top: 0.5rem;
 }
 
-.form__contact label,
-.form__contact input,
-.form__contact textarea {
+.form__contact label, .form__contact input, .form__contact textarea {
   display: inline;
   width: 100%;
 }
@@ -118,8 +109,7 @@ footer {
   font-weight: bold;
 }
 
-.form__contact input:not([type=submit]),
-.form__contact textarea {
+.form__contact input:not([type=submit]), .form__contact textarea {
   border: none;
   border-bottom: 2px solid #8c140b;
   margin-bottom: 10px;
@@ -138,7 +128,6 @@ input[type=submit] {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -152,7 +141,6 @@ input[type=submit] {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -164,10 +152,7 @@ input[type=submit] {
 }
 
 .card__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -178,12 +163,8 @@ input[type=submit] {
 }
 
 .card__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 2rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -207,7 +188,6 @@ input[type=submit] {
 
 .btn--primary:hover {
   scale: 1.1;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #8c140b;
 }
@@ -216,7 +196,6 @@ input[type=submit] {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -228,24 +207,17 @@ p.descripcion-acc {
   font-size: 1.2rem;
 }
 
-.card__acc__title_left,
-.card__acc__title_right {
+.card__acc__title_right, .card__acc__title_left {
   font-size: 1.4rem;
   color: #8c140b;
   background-color: #dfc8a5;
   text-decoration: underline;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .card__acc {
   display: inline-block;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   background-color: transparent;
   height: -10px;
@@ -260,10 +232,7 @@ p.descripcion-acc {
 }
 
 .card__acc__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -284,7 +253,6 @@ p.card__acc__text {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -292,11 +260,7 @@ p.card__acc__text {
 h2 {
   font-size: 1.2rem;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   text-decoration: underline;
 }
@@ -314,8 +278,6 @@ h2 {
 }
 
 .row.regionales {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -323,10 +285,7 @@ h2 {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
