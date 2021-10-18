@@ -107,7 +107,9 @@ footer {
   padding-top: 0.5rem;
 }
 
-.form__contact label, .form__contact input, .form__contact textarea {
+.form__contact label,
+.form__contact input,
+.form__contact textarea {
   display: inline;
   width: 100%;
 }
@@ -116,7 +118,8 @@ footer {
   font-weight: bold;
 }
 
-.form__contact input:not([type=submit]), .form__contact textarea {
+.form__contact input:not([type=submit]),
+.form__contact textarea {
   border: none;
   border-bottom: 2px solid #8c140b;
   margin-bottom: 10px;
@@ -225,7 +228,8 @@ p.descripcion-acc {
   font-size: 1.2rem;
 }
 
-.card__acc__title_left, .card__acc__title_right {
+.card__acc__title_left,
+.card__acc__title_right {
   font-size: 1.4rem;
   color: #8c140b;
   background-color: #dfc8a5;

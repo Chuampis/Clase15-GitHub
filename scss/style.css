@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .col {
@@ -37,8 +37,8 @@ i {
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   z-index: 1030;
 }
 
@@ -61,8 +61,8 @@ header {
   padding-top: 0.5rem;
   padding-bottom: 0.2rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .social__image__footer {
@@ -86,14 +86,14 @@ footer {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .form__contact {
@@ -107,7 +107,9 @@ footer {
   padding-top: 0.5rem;
 }
 
-.form__contact label, .form__contact input, .form__contact textarea {
+.form__contact label,
+.form__contact input,
+.form__contact textarea {
   display: inline;
   width: 100%;
 }
@@ -116,7 +118,8 @@ footer {
   font-weight: bold;
 }
 
-.form__contact input:not([type='submit']), .form__contact textarea {
+.form__contact input:not([type='submit']),
+.form__contact textarea {
   border: none;
   border-bottom: 2px solid #8c140b;
   margin-bottom: 10px;
@@ -136,7 +139,7 @@ input[type='submit'] {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .carousel-caption {
@@ -150,7 +153,7 @@ input[type='submit'] {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .card {
@@ -165,7 +168,7 @@ input[type='submit'] {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .card__img {
@@ -180,8 +183,8 @@ input[type='submit'] {
   display: flex;
   font-size: 2rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .card__text {
@@ -214,7 +217,7 @@ input[type='submit'] {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 p.descripcion-acc {
@@ -225,7 +228,8 @@ p.descripcion-acc {
   font-size: 1.2rem;
 }
 
-.card__acc__title_left, .card__acc__title_right {
+.card__acc__title_left,
+.card__acc__title_right {
   font-size: 1.4rem;
   color: #8c140b;
   background-color: #dfc8a5;
@@ -234,15 +238,15 @@ p.descripcion-acc {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .card__acc {
   display: inline-block;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: transparent;
   height: -10px;
   width: 350px;
@@ -260,7 +264,7 @@ p.descripcion-acc {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .card__acc__title_right {
@@ -281,7 +285,7 @@ p.card__acc__text {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* OPERACIONES SASS */
@@ -292,8 +296,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-decoration: underline;
 }
 
@@ -311,8 +315,8 @@ h2 {
 
 .row.regionales {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 /* Estilos para pagina Quienes Somos */
@@ -320,6 +324,7 @@ h2 {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 /*# sourceMappingURL=style.css.map */
